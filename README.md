@@ -7,6 +7,10 @@ Client Components
 Server Components 
 - Posso importar Client Components em Server Components
 - Não posso usar nada do React, Suspense, Lazy, Context, Hooks, onClick
+- cookies()
+- headers()
+- extended fetch()
+- 
 
 ### /app
 
@@ -19,7 +23,7 @@ Server Components
   - error.tsx
   - actions.js
   - layout.tsx
-    - useSelectedLayoutSegment or useSelectedLayoutSegments novos hooks, ainda nao sei o que fazem por nao tem na doc, da 404
+    - useSelectedLayoutSegment or useSelectedLayoutSegments novos hooks para interação com o layout
   - page.tsx
   - route.ts
     - Context
