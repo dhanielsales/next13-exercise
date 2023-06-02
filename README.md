@@ -10,7 +10,7 @@ Server Components
 - cookies()
 - headers()
 - extended fetch()
-- 
+- draftMode
 
 ### /app
 
