@@ -11,6 +11,7 @@ Server Components
 - headers()
 - extended fetch()
 - draftMode
+  - https://nextjs.org/docs/app/building-your-application/configuring/draft-mode
 
 ### /app
 
@@ -26,6 +27,7 @@ Server Components
     - useSelectedLayoutSegment or useSelectedLayoutSegments novos hooks para interação com o layout
   - page.tsx
   - route.ts
+    - https://nextjs.org/docs/app/api-reference/file-conventions/route
     - Context
 - Params
 - Groups
@@ -62,6 +64,7 @@ Incremental Static Re-generation (ISR)
     }
   });
 ```
+
 - Outra maneira é usando configurações na pagina (`layout.tsx / page.tsx / route.ts`)
 ```ts
 export const dynamic = 'auto'; // 'auto' (Default) | 'force-dynamic' | 'error' | 'force-static'

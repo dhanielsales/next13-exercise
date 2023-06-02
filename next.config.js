@@ -2,7 +2,8 @@
 const nextConfig = {
   experimental: {
     serverActions: true,
-  }
+  },
+  basePath: '/other-app',
 }
 
 module.exports = nextConfig
