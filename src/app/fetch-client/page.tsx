@@ -25,7 +25,6 @@ export default function Page() {
       <img src={data?.message} alt="Dog" />
 
       <Suspense fallback={"Load server component"}>
-        {/* @ts-expect-error Async Server Component */}
         <ServerComponent url="https://dog.ceo/api/breeds/image/random" />
       </Suspense>
     </main>
